@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mariam Sobhy Portfolio</title>
+<style>
+    /* ===== Global ===== */
+    * { box-sizing: border-box; margin:0; padding:0; }
+    body { font-family: 'Arial', sans-serif; background:#f0f2f5; color:#333; line-height:1.6; }
+
+    /* ===== Header ===== */
+    header { background: #4f46e5; color: white; padding:50px 20px; text-align:center; position:relative; }
+    header img { width:120px; height:120px; border-radius:50%; object-fit:cover; border:3px solid white; margin-bottom:15px; }
+    header h1 { font-size:2.5em; margin-bottom:5px; }
+    header p { margin:5px 0; }
+    header a { color:white; margin:0 10px; text-decoration:none; font-weight:bold; }
+    header a:hover { text-decoration:underline; }
+
+    /* ===== Sections ===== */
+    section { max-width:1000px; margin:50px auto; padding:0 20px; }
+    h2 { color:#4f46e5; margin-bottom:15px; font-size:1.8em; border-bottom:3px solid #4f46e5; display:inline-block; padding-bottom:5px; }
+
+    /* ===== Skills ===== */
+    .skills { display:flex; flex-wrap:wrap; gap:10px; margin-top:10px; }
+    .skills span { background:#ddd; color:#333; padding:7px 12px; border-radius:20px; font-size:0.9em; }
+
+    /* ===== Cards ===== */
+    .card { background:white; padding:20px; margin:15px 0; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s ease; }
+    .card:hover { transform: translateY(-5px); }
+
+    /* ===== Projects Grid ===== */
+    .projects-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:20px; }
+
+    /* ===== Footer ===== */
+    footer { text-align:center; padding:20px; color:#777; font-size:0.9em; margin-top:50px; }
+</style>
+</head>
+<body>
+
+<header>
+    <img src="mariam.jpg" alt="Mariam Sobhy">
+    <h1>Mariam Sobhy</h1>
+    <p>Software Developer / .NET Backend Developer</p>
+    <p>📧 mariam.sobhy781@gmail.com | 📞 +20-110-051-9755</p>
+    <p>
+        <a href="https://github.com/MariamSobhy-art" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/mariamsobhy" target="_blank">LinkedIn</a>
+    </p>
+</header>
+
+<section>
+    <h2>Summary</h2>
+    <div class="card">
+        <p>.NET Developer with experience building web applications using the .NET framework. Familiar with C#, ASP.NET, MVC, and SQL Server, with a foundation in full-stack development. Passionate about learning new technologies and writing clean, efficient code.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <div class="card">
+        <p>Bachelor of Computer Science – Assiut University (2022–2026)</p>
+        <p>Overall Grade: Very Good</p>
+        <p>Graduation Project: Mobile Application – Rated Excellent</p>
+    </div>
+</section>
+
+<section>
+    <h2>Experience</h2>
+    <div class="card">
+        <h3>T24 Intern – Ejada Systems (Jul 2025 – Sep 2025)</h3>
+        <ul>
+            <li>Received training on Temenos T24 core banking system</li>
+            <li>Learned banking processes and backend operations</li>
+            <li>Gained practical exposure to real-world financial systems</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Internships</h2>
+    <div class="card">
+        <h3>Trainee – Digital Egypt Pioneers Initiative (Nov 28, 2025 – Jul 23, 2026)</h3>
+        <ul>
+            <li>Learned basics of .NET development and web application design</li>
+            <li>Practiced building small projects using C#, ASP.NET, MVC, and SQL Server</li>
+            <li>Applied Object-Oriented Programming (OOP) concepts and database integration</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <div class="projects-grid">
+        <div class="card">
+            <h3>KemitGetit Tourism App – Mobile / Web Application (2026)</h3>
+            <p>Backend Developer – designed system architecture and implemented backend services including user roles (Tourist, Tour Guide, Service Provider), booking system, payment handling, and real-time location tracking.</p>
+            <p><strong>Technologies:</strong> .NET, C#, SQL Server, REST APIs</p>
+        </div>
+        <div class="card">
+            <h3>Nestora Property Listing Platform – Web Application (2026)</h3>
+            <p>Backend Developer – developed the property listing system allowing owners to add and manage properties with features like image uploads, location integration, filtering, and admin moderation.</p>
+            <p><strong>Technologies:</strong> ASP.NET, C#, SQL Server, JavaScript</p>
+        </div>
+        <div class="card">
+            <h3>Healthy Byte – Health & Nutrition Web Application (2025)</h3>
+            <p>Backend Developer – developed backend functionalities for managing user data, meal plans, and health information. Implemented database integration and user authentication to provide personalized nutrition recommendations.</p>
+            <p><strong>Technologies:</strong> ASP.NET, C#, SQL Server, HTML, CSS, JavaScript</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <h3>Technical Skills:</h3>
+    <div class="skills">
+        <span>C++</span> <span>Java</span> <span>C</span> <span>C#</span> <span>Python</span>
+        <span>OOP</span> <span>Data Structures</span> <span>Algorithms</span> <span>Problem Solving</span>
+        <span>MySQL</span> <span>SQL Server</span> <span>ASP.NET MVC</span> <span>Web API</span>
+    </div>
+    <h3>Soft Skills:</h3>
+    <div class="skills">
+        <span>Self-motivated</span> <span>Communication Skills</span> <span>Team Player</span>
+        <span>Time Management</span> <span>Attention to Detail</span>
+    </div>
+</section>
+
+<footer>
+    &copy; 2026 Mariam Sobhy
+</footer>
+
+</body>
+</html>
